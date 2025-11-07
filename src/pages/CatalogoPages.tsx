@@ -39,7 +39,7 @@ export const CatalogoPage: React.FC = () => {
                 //Usamos el 'codigo' como 'key'
                 <div key={producto.codigo} className="border rounded-lg shadow-lg overflow-hidden flex flex-col">
                 <img 
-                    src={producto.imagen} 
+                    src={`/${producto.imagen}`} 
                     alt={producto.nombre} 
                     className="w-full h-48 object-cover" 
                 />
